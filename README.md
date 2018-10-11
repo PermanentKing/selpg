@@ -44,6 +44,8 @@ Line-7
 Line-72
 ```
 
+![avatar](Pic/捕获1.PNG)
+
 2.测试错误反馈
 
 `./selpg -s=2 -e=1 -l=5 test.txt`
@@ -79,6 +81,9 @@ Line-4
 ```
 echo -e aaaaaa'\n'bbbbbb'\f'cccccc'\n'dddddd'\f'eeeeee'\n'ffffff'\f'gggggg'\n'hhhhhh >delimTest.txt
 ```
+
+![avatar](Pic/捕获.PNG)
+
 然后测试：
 
 `./selpg -s=0 -e=4 -f delimTest.txt`
@@ -98,6 +103,8 @@ ffffff
 
 ```
 
+![avatar](Pic/捕获2.PNG)
+
 5. -d测试
 `./selpg -s=0 -e=3 -l=5 -d=lp1 test.txt`
 
@@ -111,6 +118,8 @@ ffffff
      4	Line-4
 ```
 
+![avatar](Pic/捕获3.PNG)
+
 6.测试输出到文件
 `./selpg -s=0 -e=1 -l=4 test.txt >out.txt`
 
@@ -123,6 +132,8 @@ Line-2
 Line-3
 Line-4
 ```
+
+![avatar](Pic/捕获4.PNG)
 
 7.测试报错输出到文件
 `./selpg -s=1 2>error.txt`
@@ -138,5 +149,5 @@ Line-4
 ```
 
 
-
+![avatar](Pic/捕获5.PNG)
 
